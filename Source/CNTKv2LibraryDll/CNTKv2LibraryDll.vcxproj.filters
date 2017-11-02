@@ -106,6 +106,8 @@
     <ClCompile Include="proto\onnx\defs\logical\defs.cpp">
       <Filter>proto\onnx\defs\logical</Filter>
     </ClCompile>
+    <ClCompile Include="EvaluatorCAPI.cpp" />
+    <ClCompile Include="EvaluatorWrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -181,6 +183,10 @@
     <ClInclude Include="proto\onnx\core\tensorutils.h">
       <Filter>proto\onnx\core</Filter>
     </ClInclude>
+    <ClInclude Include="API\CNTKLibraryCAPI.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluatorWrapper.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="API">
